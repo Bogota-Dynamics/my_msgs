@@ -17,7 +17,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   # TODO: declare ROS messages and services inside the package
   # e.g. "msg/Example.msg"
   # e.g. "srv/Example.srv"
-  "srv/SaveMotions.srv"  
+  "srv/SaveMotions.srv" 
+  "msg/Manipulator.msg"
 )
 
 ament_export_dependencies(rosidl_default_runtime)
