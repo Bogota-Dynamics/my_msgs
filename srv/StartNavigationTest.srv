@@ -1,6 +1,4 @@
-int64 start_x
-int64 start_y
-int64 goal_x
-int64 goal_y
+float64 x
+float64 y
 ---
-
+string answer

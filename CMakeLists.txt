@@ -18,7 +18,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   # e.g. "msg/Example.msg"
   # e.g. "srv/Example.srv"
   "srv/SaveMotions.srv" 
+  "srv/StartPerceptionTest.srv" 
   "srv/StartNavigationTest.srv" 
+  "srv/StartManipulationTest.srv" 
   "msg/Manipulator.msg"
 )
 
